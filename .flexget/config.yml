@@ -1,0 +1,27 @@
+presets:
+  TV:
+    content_filter:
+      reject: 
+        - '*.rar'
+        - '*.wmv'
+    series:
+      - criminal minds
+      - family guy
+      - a game of thrones
+      - how i met your mother
+      - modern family
+      - the blacklist
+      - elementary
+      - castle
+      - marvels agents of S H I E L D
+      - south park
+      - american horror story
+      - the walking dead
+      - the big bang theory
+      - adventure time
+      - homeland
+tasks:
+  feed:
+    preset: [TV]
+    rss: http://kickass.to/tv/?rss=1
+    download: /watching/
